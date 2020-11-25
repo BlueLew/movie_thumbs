@@ -1,0 +1,75 @@
+@import 'bootstrap/dist/css/bootstrap';
+@import 'font-awesome';
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover {
+	color: #777;
+	text-decoration: none;
+}
+
+.search-area {
+	padding-top: 50px;
+}
+
+.no-right-padding	{
+	padding-right: 0 !important;
+}
+
+.no-left-padding	{
+	padding-left: 0 !important;
+}
+
+.results-block {
+	display: inline-block;
+}
+
+.jumbotron {
+	background-image: asset-url('movie_theater.jpg');
+	background-size: cover;
+	height: 550px;
+}
+
+.jumbotron h1, h2, h3 {
+	color: white;
+	text-align: left;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
