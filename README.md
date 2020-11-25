@@ -4,7 +4,7 @@ This app allows a user to search for a movie by its title, select to view the de
 
 
 
-##Getting started
+## Getting started
 * Fork this repository
 * Make sure you have ruby 2.6.3 or greater [installed](https://www.ruby-lang.org/en/documentation/installation).
 * Make sure you have rails 6.0.3 or greater [installed](https://gorails.com/setup/osx/10.15-catalina#rails)
