@@ -5,7 +5,7 @@ This app allows a user to search for a movie by its title, select to view the de
 
 
 ## Getting started
-* Fork this repository
+* [Clone this repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 * Make sure you have ruby 2.6.3 or greater [installed](https://www.ruby-lang.org/en/documentation/installation).
 * Make sure you have rails 6.0.3 or greater [installed](https://gorails.com/setup/osx/10.15-catalina#rails)
 * Make sure you have PostgreSQL [installed](https://gorails.com/setup/osx/10.15-catalina#database)
