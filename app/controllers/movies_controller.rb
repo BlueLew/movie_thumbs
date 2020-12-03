@@ -51,7 +51,7 @@ class MoviesController < ApplicationController
 			)
 
 		@movie.thumbs_up += 1
-		
+
 		if @movie.save
 			flash.now[:success] = "Your thumbs up was successfully submitted."
 			redirect_to movie_path(@movie)
@@ -71,7 +71,7 @@ class MoviesController < ApplicationController
 			)
 
 		@movie.thumbs_down += 1
-		
+
 		if @movie.save
 			flash.now[:success] = "Your thumbs down was successfully submitted."
 			redirect_to movie_path(@movie)
