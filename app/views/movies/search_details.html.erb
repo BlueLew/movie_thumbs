@@ -1,37 +1,37 @@
 <div class="container">
-	<div class="card mt-5 mb-3 border-dark rounded" style="max-width: 1400px;">
-	  <div class="row no-gutters">
-	    <div class="col-md-4">
-	      <% if @movie.poster == "N/A" %>
-					<%= image_tag("movie_popcorn.jpg", width: "100%", height: "100%") %>
-				<% else %>
-					<%= image_tag(@movie.poster, width: "100%", height: "100%") %>
-				<% end %>
-	    </div>
-	    <div class="col-md-8">
-	      <div class="card-body">
-	        <h1 class="card-title ml-4"><%= @movie.title %></h1>
-		      <div class="card-text ml-5">
-		      	<div class="row row-cols-1">
-		        	<h4>Director: <%= @movie.director %></h4>
-		        	<% if !@movie.release_date.nil? %>
-								<h4>Release Date: <%= @movie.release_date.strftime("%B %d, %Y") %></h4>
-							<% else %>
-								<h4>Release Date: N/A</h4>
-							<% end %>
-							<p><%= @movie.plot %></p>
-							<% if @movie.thumbs_up > 0 || @movie.thumbs_down > 0 %>
-								<strong>Thumbs Up=</strong> <%= @movie.thumbs_up %>
-								<strong>Thumbs Down=</strong> <%= @movie.thumbs_down %>
-							<% end %>
-							
-							<%= render 'movies/thumbs' %>
-		      	
-		      	</div>
-		      </div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	<%= link_to "Back to Search", root_path, class: "btn btn-primary" %>
+  <div class="card mt-5 mb-3 border-dark rounded" style="max-width: 1400px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <% if @movie.poster == "N/A" %>
+          <%= image_tag("movie_popcorn.jpg", width: "100%", height: "100%") %>
+        <% else %>
+          <%= image_tag(@movie.poster, width: "100%", height: "100%") %>
+        <% end %>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h1 class="card-title ml-4"><%= @movie.title %></h1>
+          <div class="card-text ml-5">
+            <div class="row row-cols-1">
+              <h4>Director: <%= @movie.director %></h4>
+              <% if !@movie.release_date.nil? %>
+                <h4>Release Date: <%= @movie.release_date.strftime("%B %d, %Y") %></h4>
+              <% else %>
+                <h4>Release Date: N/A</h4>
+              <% end %>
+              <p><%= @movie.plot %></p>
+              <% if @movie.thumbs_up > 0 || @movie.thumbs_down > 0 %>
+                <strong>Thumbs Up=</strong> <%= @movie.thumbs_up %>
+                <strong>Thumbs Down=</strong> <%= @movie.thumbs_down %>
+              <% end %>
+
+              <%= render 'movies/thumbs' %>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= link_to "Back to Search", root_path, class: "btn btn-primary" %>
 </div>

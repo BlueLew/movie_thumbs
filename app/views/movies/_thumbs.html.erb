@@ -1,8 +1,8 @@
 <div class="row">
-	<div class="col-sm-3">
-		<%= link_to (fa_icon "thumbs-up 2x"), {:controller => "movies", :action => "thumbs_up", :title => @movie.title, :poster => @movie.poster, :director => @movie.director, :release_date => @movie.release_date, :plot => @movie.plot } , :method=>:post, class: "btn btn-success btn-lg" %>
-	</div>
-	<div class="col-sm-3">
-		<%= link_to (fa_icon "thumbs-down 2x"), {:controller => "movies", :action => "thumbs_down", :title => @movie.title, :poster => @movie.poster, :director => @movie.director, :release_date => @movie.release_date, :plot => @movie.plot } , :method=>:post, class: "btn btn-danger btn-lg" %>
-	</div>
+  <div class="col-sm-3">
+    <%= link_to (fa_icon "thumbs-up 2x"), {:controller => "movies", :action => "thumbs_up", :title => @movie.title, :poster => @movie.poster, :director => @movie.director, :release_date => @movie.release_date, :plot => @movie.plot } , :method=>:post, class: "btn btn-success btn-lg" %>
+  </div>
+  <div class="col-sm-3">
+    <%= link_to (fa_icon "thumbs-down 2x"), {:controller => "movies", :action => "thumbs_down", :title => @movie.title, :poster => @movie.poster, :director => @movie.director, :release_date => @movie.release_date, :plot => @movie.plot } , :method=>:post, class: "btn btn-danger btn-lg" %>
+  </div>
 </div>

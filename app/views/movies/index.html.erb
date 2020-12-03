@@ -1,20 +1,20 @@
 <div class="center jumbotron mt-5">
-	<h1 class="mt-5">MovieThumbs</h1>
-	<div class="search-area">
-		<h3>Search Movies</h3>
-		<%= form_tag search_movie_path, remote: true, method: :get do %>
-			<div class="form-group row">
-				<div class="col-sm-7 no-right-padding">
-					<%= text_field_tag :title, params[:title], placeholder: "Movie title", autofocus: true, class: "form-control form-control-lg" %>
-				</div>
-				<div class="col-sm-5 no-left-padding">
-					<%= button_tag type: :submit, class: "btn btn-success" do %>
-						<%= fa_icon 'search 2x' %>
-					<% end %>
-				</div>
-			</div>
-		<% end %>
-	</div>
+  <h1 class="mt-5">MovieThumbs</h1>
+  <div class="search-area">
+    <h3>Search Movies</h3>
+    <%= form_tag search_movie_path, remote: true, method: :get do %>
+      <div class="form-group row">
+        <div class="col-sm-7 no-right-padding">
+          <%= text_field_tag :title, params[:title], placeholder: "Movie title", autofocus: true, class: "form-control form-control-lg" %>
+        </div>
+        <div class="col-sm-5 no-left-padding">
+          <%= button_tag type: :submit, class: "btn btn-success" do %>
+            <%= fa_icon 'search 2x' %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
 <div id="results">
 
