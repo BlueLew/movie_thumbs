@@ -48,7 +48,7 @@ class MoviesController < ApplicationController
 			release_date: params[:release_date],
 			plot: params[:plot],
 			poster: params[:poster]
-			)
+		)
 
 		@movie.thumbs_up += 1
 
@@ -68,7 +68,7 @@ class MoviesController < ApplicationController
 			release_date: params[:release_date],
 			plot: params[:plot],
 			poster: params[:poster]
-			)
+		)
 
 		@movie.thumbs_down += 1
 
