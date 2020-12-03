@@ -4,6 +4,10 @@ This app allows a user to search for a movie by its title, select to view the de
 
 
 
+https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/home_page.png
+https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/search_results.png
+https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/movie_details.png
+
 ## Getting started
 * [Clone this repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 * Make sure you have ruby 2.6.3 or greater [installed](https://www.ruby-lang.org/en/documentation/installation).
