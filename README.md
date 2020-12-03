@@ -4,9 +4,9 @@ This app allows a user to search for a movie by its title, select to view the de
 
 
 
-https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/home_page.png
-https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/search_results.png
-https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/movie_details.png
+![Home Page](images/home_page.png)
+![Search Results](https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/search_results.png)
+![Move Details](https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/movie_details.png)
 
 ## Getting started
 * [Clone this repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
