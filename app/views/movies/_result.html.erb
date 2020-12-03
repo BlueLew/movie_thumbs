@@ -3,14 +3,14 @@
 </div>
 <div class="container">
   <% if @movies %>
-    <div class="row row-cols-1 row-cols-md-3 text-center">
+    <div class="row row-cols-1 row-cols-md-2 text-center">
       <% @movies.sort_by{ |movie| movie["Year"] }.each do |movie| %>
         <div class="col-sm-4 mb-5">
           <div class="card card-header w-100 h-100">
             <% if movie["Poster"] == "N/A" %>
-              <%= image_tag("movie_popcorn.jpg", width: "300", height: "500") %>
+              <%= image_tag("movie_popcorn.jpg", width: "300px", height: "500px", class: "mx-auto d-block") %>
             <% else %>
-              <%= image_tag(movie["Poster"], width: "300", height: "500") %>
+              <%= image_tag(movie["Poster"], width: "300px", height: "500px", class: "mx-auto d-block") %>
             <% end %>
             <h3 class="text-center"><%= link_to movie["Title"],
               search_details_path(movie["imdbID"]), class: "mt-5" %></h3>

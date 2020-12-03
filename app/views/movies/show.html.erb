@@ -25,11 +25,11 @@
 
               <% if @movie.thumbs_up > 0 || @movie.thumbs_down > 0 %>
                 <div class="row">
-                  <div class="col-sm-3">
-                    Up Votes = <%= @movie.thumbs_up %>
+                  <div class="col-sm-4">
+                    Up Votes: <%= @movie.thumbs_up %>
                   </div>
-                  <div class="col-sm-3">
-                    Down Votes = <%= @movie.thumbs_down %>
+                  <div class="col-sm-4">
+                    Down Votes: <%= @movie.thumbs_down %>
                   </div>
                 </div>
               <% end %>
@@ -39,5 +39,5 @@
       </div>
     </div>
   </div>
-  <%= link_to "Back to Search", root_path, class: "btn btn-primary" %>
+  <%= link_to (fa_icon "arrow-circle-left", text: "Back to Search"), root_path, class: "btn btn-primary" %>
 </div>
