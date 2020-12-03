@@ -12,5 +12,7 @@ This app allows a user to search for a movie by its title, select to view the de
 * You should be all set up to fire up the rails application. You can attempt to do so by using the command `rails server` and then going to  [http://localhost:3000](http://localhost:3000/) in your browser.
 
 ![Home Page](https://github.com/BlueLew/movie_thumbs/blob/master/app/assetsimages/home_page.png)
+
 ![Search Results](https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/search_results.png)
+
 ![Move Details](https://github.com/BlueLew/movie_thumbs/blob/master/app/assets/images/movie_details.png)
