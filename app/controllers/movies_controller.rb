@@ -22,12 +22,6 @@ class MoviesController < ApplicationController
     end
   end
 
-  def index; end
-
-  def new; end
-
-  def create; end
-
   def search_details
     imdb_id = request.params[:format]
     @movie = Movie.get_movie_details(imdb_id)
@@ -76,10 +70,6 @@ class MoviesController < ApplicationController
       redirect_to movie_path(@movie)
     end
   end
-
-  def edit; end
-
-  def update; end
 
   private
 
